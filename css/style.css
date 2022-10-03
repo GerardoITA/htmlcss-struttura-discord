@@ -4,3 +4,92 @@
     margin: 0;
     padding: 0;
 }
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+a {
+    text-decoration: none;
+}
+.button {
+    padding: 12px 25px;
+    border-radius: 50px;
+}
+/* //////////////////////////////Macrodivisori////////////////////////////// */
+header {
+    height: 500px;
+    width: auto;
+    background-color: blue;
+    color: white;
+}
+main {
+    margin: 100px;
+    height: 2500px;
+    width: auto;
+}
+footer {
+    height: 500px;
+    width: auto;
+    background-color: brown;
+}
+/* //////////////////////////////Header&Logo////////////////////////////// */
+/* .logo::before {
+    font-family: "Font Awesome 6 Brands";
+    content: "\f392";
+} */
+li>a {
+    text-decoration: none;
+    color: white;
+}
+.logo {
+    margin-top: 15px;
+    background-color: red;
+}
+.topmenu {
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: beige;
+}
+.toplink {
+    background-color: blueviolet;
+}
+.toplink li {
+    float: left;
+    margin: 15px;
+    list-style: none;
+}
+
+.login {
+   margin-top: 10px;
+   background-color: white;
+}
+/* Headertext////////////////////////////// */
+.headertext {
+    padding: 100px 25vw 25vw;
+    text-align: center;
+}
+.headertext h1 {
+    font-size: 50px;
+}
+.headertext p {
+    font-size: 20px;
+}
+.open-on-browser {
+    margin-left: 20px;
+    background-color: rgb(42, 42, 42);
+    color: white;
+}
+.download {
+    background-color: white;
+    color: black;
+}
+.download::before {
+    content: "\2193";
+    font-size: 30px;
+}
+#header-buttons {
+    margin-top: 20px;
+}
+/* //////////////////////////////Main////////////////////////////// */
