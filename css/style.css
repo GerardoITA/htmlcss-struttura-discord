@@ -16,6 +16,9 @@ a {
     padding: 12px 25px;
     border-radius: 50px;
 }
+.blue {
+    color: rgb(114, 137, 218);
+}
 /* //////////////////////////////Macrodivisori////////////////////////////// */
 header {
     height: 500px;
@@ -32,6 +35,7 @@ footer {
     height: 500px;
     width: auto;
     background-color: brown;
+    color: white;
 }
 /* //////////////////////////////Header&Logo////////////////////////////// */
 /* .logo::before {
@@ -107,6 +111,10 @@ section {
     background-color: green;
     height: 600px;
 }
+footer>hr {
+    width: 75vw;
+    margin: 10px auto;
+}
 .bottom-menu {
     display: flex;
     flex-direction: row;
@@ -123,4 +131,23 @@ section {
     width: 60vw;
     background-color: pink;
     display: inline-block;
+    display: flex;
+    justify-content: space-evenly;
+ 
+}
+.column {
+    height: 100%;
+    width: 25%;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 0;
+}
+.language {
+    font-weight: bold;
+}
+.language::after {
+    content:"\26BA";
+}
+.it::before {
+    content: "flag-it   ";
 }
